@@ -18,7 +18,6 @@ from setuptools.command.test import test as TestCommand
 
 
 class PyTest(TestCommand):
-
     """PyTest test runner.
 
     See: http://pytest.org/latest/goodpractises.html?highlight=setuptools

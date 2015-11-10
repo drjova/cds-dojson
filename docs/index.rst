@@ -6,9 +6,9 @@
   modify it under the terms of the Revised BSD License; see LICENSE
   file for more details.
 
-========
+===========
  cds_dojson
-========
+===========
 .. currentmodule:: cds_dojson
 
 .. raw:: html
@@ -42,8 +42,8 @@ A simple example on how to convert MARCXML to JSON:
 
 .. code:: python
 
-    from dojson.contrib.marc21.utils import create_record, split_blob
-    from dojson.contrib.marc21 import marc21
+    from cds_dojson.contrib.marc21.utils import create_record, split_blob
+    from cds_dojson.contrib.marc21 import marc21
     [marc21.do(create_record(data)) for data in split_blob(open('/tmp/data.xml', 'r').read())]
 
 
@@ -57,7 +57,7 @@ API
 Contrib
 -------
 
-.. automodule:: dojson.marc21
+.. automodule:: cds_dojson.marc21
     :members:
 
 .. include:: ../CHANGES.rst
